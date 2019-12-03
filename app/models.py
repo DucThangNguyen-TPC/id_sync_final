@@ -12,4 +12,4 @@ class IdPair(db.Model):
     beeswax_id = db.Column(db.Integer, nullable=False)
 
     def __repr__(self):
-        return 'Battlenet Id: {} - Beeswax Id: {}'.format(self.battlenet_id, self.beeswax_id)
+        return 'Battlenet Id: {} - Beeswax Id: {}'.format(self.battle_net_id, self.beeswax_id)
