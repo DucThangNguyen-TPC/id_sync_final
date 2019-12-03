@@ -17,6 +17,7 @@ nosetests.xml
 
 venv
 app.db
+migrations
 
 .idea
 *.env
