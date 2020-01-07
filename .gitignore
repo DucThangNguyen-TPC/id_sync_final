@@ -22,3 +22,6 @@ migrations
 .idea
 *.env
 *.db
+*.crt
+*.rsa
+
